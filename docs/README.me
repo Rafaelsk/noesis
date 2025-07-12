@@ -1,0 +1,41 @@
+# Noesis [WIP]
+
+A logical inference machine for constructing a consistent belief system from foundational axioms.
+
+## Vision
+
+Noesis is a personal project designed to build a logic engine that:
+- Accepts axioms, derived theorems, and proposed statements
+- Ensures internal logical consistency
+- Rejects anything not provable from existing foundations
+- Allows REPL-style exploration and reasoning
+
+## Current Capabilities
+
+- [x] Add foundational statements
+- [x] Propose new statements
+- [x] Show all known axioms and theorems
+- [x] REPL-based interaction
+- [x] Pure functional core (Scala 3)
+- [x] Modular architecture (core, adapter, model, logic)
+
+## Work in Progress
+
+- Logical inference rules (e.g. Modus Ponens)
+- Proper parsing of structured logic (`A -> B`, `¬C`)
+- JSON-based persistence
+- Testing suite
+
+---
+
+**Example session:**
+```bash
+noesis> foundation A
+noesis> foundation A -> B
+noesis> propose B
+noesis> show all
+```
+
+## 🧬 License
+
+No license yet — WIP & experimental.
